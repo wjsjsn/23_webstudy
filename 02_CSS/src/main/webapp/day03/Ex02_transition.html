@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>트랜지션</title>
+<style type="text/css">
+.mybox {
+	margin: 20px auto;
+	width: 100px;
+	height: 100px;
+	background-color: snow;
+	border: 1px solid tomato;
+	/* transition-property: width, height, transform; 
+	   transition-duration: 2s; 
+   	   transition-timing-function: ease-in; */
+   	   transition: all 2s ease-in;
+}
+
+.mybox:hover {
+	width: 200px; /* 너비는 2초 */
+	height: 300px; /* 높이는 1초 */
+	background-color: lavender;
+	transform: rotate(270deg);  /* 회전 */
+}
+</style>
+</head>
+<body>
+	<div class="mybox"></div>
+</body>
+</html>

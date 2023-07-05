@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>float</title>
+<style type="text/css">
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 20px;
+	margin: 0px 20px;
+	border: 1px solid pink;
+}
+
+#myimg1 {
+	float: left;
+	width: 150px;
+	margin-right: 20px;
+}
+
+#mybox{
+/* 위에서 지정된 float:left 해제 */
+clear: left;
+}
+
+#myimg2 {
+	width: 150px;
+	margin-right: 20px;
+	float: right;
+}
+</style>
+</head>
+<body>
+	<!-- 
+float : 화면 좌우에 어떤 요소가 자리를 차지할 수 있도록 지정하는 것
+          원래 목적은 그림과 글자 위치 지정(day02의 Ex05)
+          메뉴 만들 때 사용 : (day03의 Ex08)         
+          - left, right, none, inherit => 부모의 float값을 상속받음
+
+clear : float 해제          
+         - left, right, both(양쪽)
+ -->
+	<header>
+		<nav>
+			<ul>
+				<li>menu 1</li>
+				<li>menu 2</li>
+				<li>menu 3</li>
+				<li>menu 4</li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<article>
+		<h2>이미지와 그림의 조화</h2>
+		 <img id="myimg1" src="../images/IMG_5856.JPG" >
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+		</article>
+		
+		<article id="mybox">
+		<!-- 위에 float 영향을 받음 -->
+		<h2>이미지와 그림의 조화</h2>
+		 <img id="myimg2" src="../images/IMG_5856.JPG" >
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+			 이것은 이미지가 글자의 오른쪽에 위치하게 함
+		</article>
+	</section>
+</body>
+</html>

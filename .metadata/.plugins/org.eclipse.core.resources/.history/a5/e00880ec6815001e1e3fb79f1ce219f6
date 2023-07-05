@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>이벤트</title>
+</head>
+<body>
+<button onclick="test1()">버튼1</button>
+<button onclick="test2()">버튼2</button>
+<form action="#">
+	<p><label for="uid">ID</label><input type="text" id="uid" name="uid" value="40"></p>
+	<p><label for="s_info">자기소개</label></p>
+	<textarea rows="6" cols="50" id="s_info" name="s_info"></textarea>
+</form>
+</body>
+</html>

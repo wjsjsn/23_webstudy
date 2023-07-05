@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>?</title>
+<script type="text/javascript">
+	function test1() {
+		var now = new Date();
+		var s = now.getFullYear() + ". " + now.getMonth() + ". " + now.getDate() + 
+		". " + now.getHours() + " : " + now.getMinutes() + " : " + now.getSeconds();
+		document.getElementById("clock1").innerHTML = s;
+	}
+	
+	function test2() {
+		
+	}
+	
+	function test3() {
+		
+	}
+
+</script>
+</head>
+<body>
+	<h2><span id="clock1"></span></h2>
+	<h2><span id="clock2"></span></h2>
+	<h2><span id="clock3"></span></h2>
+	<hr>
+	
+	<button onclick="test1()">시계1</button>
+	<button onclick="test2()">시계2</button>
+	<button onclick="test3()">시계3</button>
+</body>
+</html>

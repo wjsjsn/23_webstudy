@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>function() : 함수</title>
+<script type="text/javascript">
+	// 선언함수는 함수가 먼저 만들어지고 나중에 실행됨 => test1();을 어디에 써도 호출됨
+	test1();
+	function test1() {
+		document.write("Hi<br>");
+	}
+	test1();
+	// 변수 이름 똑같이 써도 오류는 x
+	function test1() {
+		document.write("Hello<br>");
+	}
+	test1();
+	document.write("<hr>");
+</script>
+<script type="text/javascript">
+    // 익명함수는 선언함수와 다르게 실행할 때 만들어짐 => 함수생성 후 test2();를 써야함
+	// test1(); => 위에 쓴 거 호출 가능
+	// test2(); => 오류 발생
+	var test2 = function() {
+		document.write("Hi<br>");
+	}
+	test2();
+	
+	var test2 = function() {
+		document.write("Hello<br>");
+	}
+	test2();
+	document.write("<hr>");
+</script>
+<script type="text/javascript">
+	test3();
+	function test3() {
+		document.write("Hi<br>");
+	}
+	test3();
+	
+	var test3 = function() {
+		document.write("Hello<br>");
+	}
+	test3();
+</script>
+<script type="text/javascript">
+test4();
+
+var test4 = function() {
+	document.write("Hello<br>");
+}
+test4();
+
+function test4() {
+	document.write("Hi<br>");
+}
+test4();
+
+</script>
+</head>
+<body>
+</body>
+</html>

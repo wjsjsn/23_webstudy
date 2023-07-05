@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>a 태그</title>
+<style type="text/css">
+a {
+	text-decoration: none;
+}
+</style>
+</head>
+<body>
+<!-- 
+a : 링크 태그
+<a href="url" target="value"> 텍스트</a>
+- href = # : 현재문서
+- target = "_blank" : 새 창
+           "_self" : default, 자기자신
+           "_parent" : 부모창
+           name : 같은 페이지에서 name을 지정한 위치
+ -->
+ <a href="https://www.naver.com">naver</a>
+ <a href="https://www.daum.net">daum</a>
+ <a href="https://www.google.com">google</a>
+ <hr>
+ 
+ <a href="https://www.naver.com" target="_blank">naver</a>
+ <a href="https://www.daum.net" target="_blank">daum</a>
+ <a href="https://www.google.com" target="_blank">google</a>
+ <hr>
+ 
+ <!-- 현재 프로젝트 문서 연결 -->
+ <!-- 상대주소(현재 내 위치부터, ..으로 시작**..은 현재 위치에서 빠져나온다는 뜻) -->
+ <a href="../day01/Ex06_Colors.html">문서 1</a>
+ <!-- 절대주소(root부터, /로 시작) -->
+ <a href="/01_HTML/day01/Ex06_Colors.html">문서 2</a>
+ <hr>
+ 
+ <h2>같은 문서에서 다른 위치로 이동(name 이동)</h2>
+ <p><a href="#first">첫번째 단락</a></p>
+ <p><a href="#second">두번째 단락</a></p>
+ <p><a href="#third">세번째 단락</a></p>
+ <br><br><br><br><br>
+ <a name="first">첫번째 단락</a>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+  <a name="second">두번째 단락</a>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+  <a name="third">세번째 단락</a>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+ <p>.</p><p>.</p><p>.</p><p>.</p><p>.</p>
+ <a href="#">맨 처음으로 이동</a>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

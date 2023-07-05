@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>text-decoration, text-shadow 속성</title>
+<style type="text/css">
+p {
+	font-size: 2em;
+}
+
+#shadow1{
+color: tomato;
+                    /* 가로 세로 번짐 색상 */
+text-shadow: 3px 3px lightgray; 
+}
+
+#shadow2{
+color: pink;
+                    /* 가로 세로 번짐 색상 */
+text-shadow: 3px 3px 3px lightgray; 
+}
+
+#shadow3{
+color: lavender;
+                    /* 가로 세로 번짐 색상 */
+text-shadow: 5px -5px 20px lightgray; 
+}
+
+
+</style>
+</head>
+<body>
+	<h2>text-decoration</h2>
+	<p style="text-decoration: none;">none</p>
+	<p style="text-decoration: underline;">underline</p>
+	<p style="text-decoration: overline;">overline</p>
+	<p style="text-decoration: line-through;">line-through</p>
+	<hr>
+
+	<h2>text-shadow</h2>
+    <p id="shadow1">HTML</p>
+    <p id="shadow2">CSS</p>
+    <p id="shadow3">JavaScript</p>
+</body>
+</html>

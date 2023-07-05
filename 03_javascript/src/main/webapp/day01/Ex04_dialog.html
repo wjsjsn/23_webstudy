@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>다이얼로그(대화상자)</title>
+<script type="text/javascript">
+	// 자바 스크립트에서는 3가지 대화 상자가 존재
+	// alert(경고창), confirm(확인창), prompt(입력창)
+	document.write("<h2>");
+	
+	// alert은 리턴값 없음(사용자에게 알리는 창)
+    // window.alert([message])
+    window.alert("Hello World");
+
+    // window 생략 가능
+    alert("Hello World");
+    
+    // confirm은 리턴값 있음(확인(true), 취소(false))
+    var res = confirm("정말 삭제할까요?");
+    document.write("<p>" + res + "</p>");
+	
+    document.write("<hr>");
+	
+	// prompt는 사용자에게 정보를 받아서 전달하는 역할
+	// 하지만 form 태그를 이용하는 경우가 대다수이므로 활용도가 떨어짐
+	// var res = prompt(내용, [초기값])
+	var res = prompt("정수 입력", 417);
+	 document.write("res = " + res + "<br>");	 
+	 res = res % 2 === 0 ? "짝수" : "홀수";
+	 document.write("res = " + res + "<br>");	 
+	
+	 document.write("<hr>");
+	 document.write("</h2>");
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>dom</title>
+<style type="text/css">
+	#container {
+		width: 500px;
+		margin: auto;
+	}
+
+</style>
+</head>
+<body>
+	<div id="container">
+		<img id="cover" src="../images/cup-1.png">
+	</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Number 클래스</title>
+<script type="text/javascript">
+	var s1 = 10;
+	var s2 = 6;
+	
+	document.write("<h2>")
+	document.write("<li>" + (s1 + s2) + "</li>")
+	document.write("<li>" + (s1 - s2) + "</li>")
+	document.write("<li>" + (s1 * s2) + "</li>")
+	document.write("<li>" + (s1 / s2) + "</li>")
+	document.write("<li>" + (s1 % s2) + "</li>")
+	document.write("</h2>")
+	document.write("<hr>")
+	
+	var s1 = "10";
+	var s2 = "6";
+	
+	document.write("<h2>")
+	document.write("<li>" + (s1 + s2) + "</li>")
+	document.write("<li>" + (s1 - s2) + "</li>")
+	document.write("<li>" + (s1 * s2) + "</li>")
+	document.write("<li>" + (s1 / s2) + "</li>")
+	document.write("<li>" + (s1 % s2) + "</li>")
+	document.write("</h2>")
+	document.write("<hr>")
+	
+</script>
+</head>
+<body>
+</body>
+</html>

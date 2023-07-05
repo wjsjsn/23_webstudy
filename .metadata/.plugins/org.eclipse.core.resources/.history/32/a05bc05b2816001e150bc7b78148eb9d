@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Math 객체</title>
+<script type="text/javascript">
+	// 주요 메서드 : min, max, random, round, floor, ceil 
+	document.write(Math.min(1, -2, 95, -4, 40, 67) + "<br>");
+	document.write(Math.min(1, -2, 95, "-4", 40, 67) + "<br>");
+	document.write(Math.min(1, -2, 95, "hello", 40, 67) + "<br>");
+</script>
+</head>
+<body>
+
+</body>
+</html>

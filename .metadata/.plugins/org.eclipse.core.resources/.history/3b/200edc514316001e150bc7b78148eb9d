@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DOM(Document Object Model)</title>
+</head>
+<body>
+  <p id="demo1">Hello World</p>
+  <p><span id="demo2">WelCome JavaScript</span></p>
+  <p id="demo3">서울시 마포구 신수동</p>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

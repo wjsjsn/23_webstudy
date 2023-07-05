@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Number 클래스</title>
+<script type="text/javascript">
+	var s1 = 10;
+	var s2 = 6;
+	
+	document.write("<h2>")
+	document.write("<li>" + (s1 + s2) + "</li>")
+	document.write("<li>" + (s1 - s2) + "</li>")
+	document.write("<li>" + (s1 * s2) + "</li>")
+	document.write("<li>" + (s1 / s2) + "</li>")
+	document.write("<li>" + (s1 % s2) + "</li>")
+	document.write("</h2>")
+	document.write("<hr>")
+	
+	var s1 = "10";
+	var s2 = "6";
+	
+	document.write("<h2>")
+	document.write("<li>" + (s1 + s2) + "</li>")  // 계산 x, 문자 연결자
+	document.write("<li>" + (s1 - s2) + "</li>")  // +를 제외한 다른 연산은 가능
+	document.write("<li>" + (s1 * s2) + "</li>")
+	document.write("<li>" + (s1 / s2) + "</li>")
+	document.write("<li>" + (s1 % s2) + "</li>")
+	document.write("</h2>")
+	document.write("<hr>")
+	
+	var s1 = 10;
+	var s2 = "6";
+	
+	document.write("<h2>")
+	document.write("<li>" + (s1 + s2) + "</li>")  // 계산 x, 문자 연결자
+	document.write("<li>" + (s1 - s2) + "</li>")  // +를 제외한 다른 연산은 가능
+	document.write("<li>" + (s1 * s2) + "</li>")
+	document.write("<li>" + (s1 / s2) + "</li>")
+	document.write("<li>" + (s1 % s2) + "</li>")
+	document.write("</h2>")
+	document.write("<hr>")
+	
+	var s1 = "10";
+	var s2 = 6;
+	
+	document.write("<h2>")
+	document.write("<li>" + (s1 + s2) + "</li>")  // 계산 x, 문자 연결자
+	document.write("<li>" + (s1 - s2) + "</li>")  // +를 제외한 다른 연산은 가능
+	document.write("<li>" + (s1 * s2) + "</li>")
+	document.write("<li>" + (s1 / s2) + "</li>")
+	document.write("<li>" + (s1 % s2) + "</li>")
+	document.write("<hr>")
+	
+	// 숫자를 문자열로 변경 : toString()
+	s1 = 10;
+	s2 = 6;
+	
+	document.write("<li>" + (s1 + s2) + "</li>")
+	document.write("<li>" + (s1.toString() - s2) + "</li>")
+	
+	document.write("</h2>")
+	document.write("<hr>")
+	
+</script>
+</head>
+<body>
+</body>
+</html>

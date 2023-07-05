@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function setSnow() {
+	document.getElementById("box1").style.background-color = "snow";
+}
+
+function setLightYellow() {
+	document.getElementById("box1").style.background-color = "lightyellow" ;
+}
+
+function setLavender() {
+	document.getElementById("box1").style.background-color = "lavender" ;
+}
+</script>
+<style type="text/css">
+.box{
+	border: 1px solid white;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	text-align: center;
+	line-height: 200px;
+}
+</style>
+</head>
+<body>
+	<div style="margin: 20px; text-align: center ;">
+		<button onclick="setSnow()">SNOW</button>
+		<button onclick="setLightYellow()">LIGHTYELLOW</button>
+		<button onclick="setLavender()">LAVENDER</button>
+	</div>
+	<div class="box" id="box1">BOX1</div>
+</body>
+</html>

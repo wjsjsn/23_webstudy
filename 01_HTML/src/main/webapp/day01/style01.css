@@ -1,0 +1,13 @@
+@charset "UTF-8";
+h4 {
+	background-color: navy;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+h3 {
+	background-color: fuchsia;
+}
+h2 {
+	background-color: purple;
+}

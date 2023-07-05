@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SVG 그래픽</title>
+</head>
+<body>
+<!-- 
+SVG : w3c에서 권고한 그래픽 처리(xml 기반)
+         태그를 이용해서 그래픽 처리
+ -->
+ <!-- 원 : circle 중심좌표, 반지름 -->
+ <svg style="width: 150px; height: 150;">
+ <circle cx="50", cy="50", r="45" stroke="pink" stroke-width="2" fill="snow">
+ </svg>
+ 
+ <!-- 사각형 : rect 너비(width), 높이(height) -->
+ <svg style="width: 150px; height: 150; border: 1px solid tomato">
+ <rect style="width:150px; height:150px; fill: lavender;">
+ </svg>
+ 
+ <!-- 둥근 모서리 사각형 : roundrect  -->
+ <svg style="width: 150px; height: 150;">
+ <rect x="5"  y="5"  rx="30"  ry="30"  style="width:90; height:90; stroke:pink; fill:snow;">
+ </svg>
+ 
+ <!-- 타원 : ellipse rx(수평), ry(수직) -->
+ <svg style="width:300; height:200;">
+ <ellipse cx="150" cy="100" , rx="70" ry="50" style="stroke:pink; fill:snow;">
+ </svg>
+ 
+ <!--  직선 : line-->
+ <svg style="width: 150px; height: 150px; border: 1px solid tomato">
+ <line x1="5" y1="50", x2="105", y2="50" style="stroke:pink; stroke-width:2px;">
+ </svg>
+ <svg style="width: 150px; height: 150px; border: 1px solid tomato">
+ <line x1="5" y1="50", x2="5", y2="150" style="stroke:pink; stroke-width:2px;">
+ </svg>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

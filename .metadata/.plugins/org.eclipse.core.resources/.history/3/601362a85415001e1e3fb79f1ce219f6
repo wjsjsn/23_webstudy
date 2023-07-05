@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Array</title>
+<script type="text/javascript">
+	var arr = [1,2,3,4,5];
+	var res = arr.slice(2);
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

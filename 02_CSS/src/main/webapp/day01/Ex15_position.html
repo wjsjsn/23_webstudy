@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+div{
+width: 50px;
+height: 50px;
+background-color: pink;
+margin: 20px;
+}
+
+.container{
+position: relative;
+top: 50px;
+background-color: snow;
+}
+
+.box1{
+background-color: lightyellow;
+left: 10px;
+top: 10px;
+position: relative;
+}
+
+.box2{
+background-color: lightblue;
+left: 50px;
+top: 50px;
+position: absolute;
+}
+
+.box3{
+background-color: lavender;
+left: 50px;
+top: 50px;
+position: fixed;
+}
+
+</style>
+</head>
+<body>
+	<article class="container">
+		<div>1</div>
+		<div class="box1">2</div>
+		<div>3</div>
+		<div class="box2">4</div>
+		<div>5</div>
+		<div class="box3">6</div>
+	</article>
+</body>
+</html>

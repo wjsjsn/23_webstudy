@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>콜백 함수</title>
+<script type="text/javascript">
+	function send_go1() {
+		// 3초 후에 myfunc 호출
+		// setTimeout(실행할 함수, 지연 시간(밀리초)) => 내장 함수
+		// 밀리초 => 1000 : 1초
+		setTimeout(myfunc, 3000);					
+	}
+	function myfunc() {
+		alert("경고메시지1");
+	}
+</script>
+</head>
+<body>
+	<!-- 콜백 함수 : 파라미터로 함수를 전달받아 함수 내부에서 인자로 받은 함수를 실행
+	                    이 때 인자로 받은 함수가 콜백함수
+	     사용 이유 : 비동기 자바스크립트 코드를 작성하기 위해서 -->
+	<button onclick="send_go1()">눌러주세요</button>
+	<button onclick="send_go2()">눌러주세요</button>
+	<button onclick="send_go3()">눌러주세요</button>
+	<button onclick="send_go4()">눌러주세요</button>
+</body>
+</html>

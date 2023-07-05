@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form 태그</title>
+<style type="text/css">
+fieldset {
+	width: 60%;
+}
+</style>
+</head>
+<body>
+	<!-- fieldset : form 태그 안에서 그룹으로 표시 -->
+	<form>
+		<fieldset>
+			<legend>상품 배송</legend>
+			<!-- <label for="id이름"> input과 label을 연결하는 역할-->
+      <label for="addr">주소지 :   </label><input type="text" name="addr" id="addr">
+		</fieldset>
+		<fieldset>
+			<legend>배송 정보</legend>
+           주소지 :  <input type="text">
+		</fieldset>
+	</form>
+</body>
+</html>

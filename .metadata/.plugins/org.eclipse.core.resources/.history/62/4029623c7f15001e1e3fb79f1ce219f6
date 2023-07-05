@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>이벤트 리스너</title>
+</head>
+<body>
+	<button id="mybtn()">클릭</button>
+	<p id="demo1"></p>
+	<p id="demo2"></p>
+	<hr>
+<script type="text/javascript">	
+		// 이벤트 리스너
+		// addEventListener("", function(){내용})
+		document.getElementById("mybtn").addEventListener("onclick", function() {
+			document.getElementById("demo1").innerHTML = new Date().toLocaleString();
+		});
+</script>
+	
+</body>
+</html>

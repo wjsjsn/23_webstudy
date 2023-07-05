@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	#myBox {
+		background-color: snow;
+	}
+
+</style>
+</head>
+<body>
+	<div id="myBox">
+		<p id="p1">이것은 DOM 연습</p>
+		<p id="p2">이것은 DOM 연습^^</p>
+	</div>
+	<script type="text/javascript">
+		// html 요소 추가 및 삭제
+	</script>
+</body>
+</html>

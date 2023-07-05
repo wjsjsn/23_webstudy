@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>이미지 맵</title>
+</head>
+<body>
+<!-- 
+이미지맵 : 하나의 이미지 안에 여러개의 a링크를 설정
+              사각형, 원형 등의 영역을 설정해서 a링크 설정
+ -->
+ <!-- 1. 해당 이미지에 usemap 속성 부여 -->
+ <a href="https://www.daum.net" target="_blank">
+ <img alt="workplace" src="../images/workplace.jpg" usemap="#i_map">
+ </a>
+ <!-- 2. map 태그 안에 이름 지정 후 area 태그 생성 후 영역 설정 후 링크 설정 -->
+ <map name="i_map">
+ <!-- 사각형(x, y, x2, y2) coords="좌표", 링크 -->
+ <area shape="rect" coords="32,44,272,349" href="https://www.naver.com">
+ <!-- 원형(중심x, y, 반지름) -->
+ <area shape="circle" coords="341,302,40" href="https://www.google.com">
+ </map>
+</body>
+</html> 

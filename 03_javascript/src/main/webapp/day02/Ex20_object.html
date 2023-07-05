@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>object : 객체</title>
+<script type="text/javascript">
+	// 자바 스크립트에서 객체를 object라고 함
+	// 객체 : 상태값(properties, 속성), 기능(function)을 갖고 있음(자바의 class와 같음)
+
+	// 방법 1
+	var obj = new Object();
+	// 상태값
+	obj["name"] = "홍길동";
+	obj["age"] = 14;
+	obj["addr"] = "서울";
+	obj["salary"] = 3600;
+
+	document.write("<p>" + obj["name"] + "</p>");
+	document.write("<p>" + obj["age"] + "</p>");
+	document.write("<p>" + obj["addr"] + "</p>");
+	document.write("<p>" + obj["salary"] + "</p>");
+	document.write("<hr>");
+
+	// 방법 2
+	var obj2 = {
+		name : "임꺽정",
+		age : 37,
+		addr : "함경도",
+		salary : 5200
+	};
+	document.write("<p>" + obj2["name"] + "</p>");
+	document.write("<p>" + obj2["age"] + "</p>");
+	document.write("<p>" + obj2["addr"] + "</p>");
+	document.write("<p>" + obj2["salary"] + "</p>");
+	document.write("<hr>");
+
+	// 방법 3
+	// 자바 스크립트 this는 this를 호출할 때 해당 this가 결정됨
+	// this는 호출한 객체를 지칭하는 말
+	var obj3 = {
+		name : "장길산",
+		age : 12,
+		job : function() {
+			return "Hello";
+		},
+		prn : function() {
+			return this.name + ", " + this.age + ", " + this.job();
+		}
+	}
+	document.write("<p>" + obj3["name"] + "</p>");
+	document.write("<p>" + obj3["age"] + "</p>");
+	document.write("<p>" + obj3.job() + "</p>");
+	document.write("<p>" + obj3.prn() + "</p>");
+	document.write("<hr>");
+</script>
+</head>
+<body>
+</body>
+</html>

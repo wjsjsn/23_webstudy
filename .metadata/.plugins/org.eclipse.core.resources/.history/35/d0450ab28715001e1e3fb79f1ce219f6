@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function setSnow() {
+	document.getElementById("box1").style.display = "block" ;
+	document.getElementById("box2").style.display = "none" ;
+	document.getElementById("box3").style.display = "none" ;
+}
+
+function setLightYellow() {
+	document.getElementById("box1").style.display = "none" ;
+	document.getElementById("box2").style.display = "block" ;
+	document.getElementById("box3").style.display = "none" ;
+}
+
+function setLavender() {
+	document.getElementById("box1").style.display = "none" ;
+	document.getElementById("box2").style.display = "none" ;
+	document.getElementById("box3").style.display = "block" ;
+}
+</script>
+<style type="text/css">
+.box{
+	border: 1px solid white;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	display: none;
+	text-align: center;
+	line-height: 200px;
+}
+</style>
+</head>
+<body>
+	<div style="margin: 20px; text-align: center ;">
+		<button onclick="setSnow()">SNOW</button>
+		<button onclick="setLightYellow()">LIGHTYELLOW</button>
+		<button onclick="setLavender()">LAVENDER</button>
+	</div>
+	<div class="box" id="box1" style="background-color: snow">BOX1</div>
+	<div class="box" id="box2" style="background-color: lightyellow">BOX2</div>
+	<div class="box" id="box3" style="background-color: lavender">BOX3</div>
+</body>
+</html>

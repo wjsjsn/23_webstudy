@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>브라우저와 관련된 객체</title>
+<script type="text/javascript">
+	/* 	계층 구조
+       - window : 브라우저 창이 열릴 때마다 하나씩 만들어짐
+                     브라우저 관련 최상위에 있음       
+	         
+             -- **document : 웹 문서 하나당 하나, <body> 태그를 만나면 만들어짐
+	         -- **history : 사용자의 방문 기록을 저장
+	         -- **location : 현재 웹 페이지의 url을 가지고 있음
+	                          location href => 이동
+	         -- navigator : 현재 사용하고 있는 브라우저 정보가 있음
+	         -- screen : 현재 사용하고 있는 화면 정보
+	*/
+	
+	/* window.open(경로, 창 이름, 창 옵션)
+	    - 이름을 지정하면 항상 이 창에 팝업 내용이 나타나도록 할 수 있음
+	      이름이 없으면 매번 새로 만들어짐
+	    - 창 옵션은 left, top 속성을 이용해서 위치 지정, width, height 속성을 이용해서 크기 지정
+	*/
+	
+	window.open("notice.html", "pop", "width=500, height=400, left=100, top=200");
+</script>
+</head>
+<body>
+	<h2>window를 이용한 팝업</h2>
+</body>
+</html>

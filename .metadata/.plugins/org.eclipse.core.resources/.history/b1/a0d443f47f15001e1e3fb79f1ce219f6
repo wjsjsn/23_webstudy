@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div style="margin: auto; width: 300px; padding: 20px;">
+		<button onclick="setSnow()">SNOW</button>
+		<button onclick="setLightYellow()">LIGHTYELLOW</button>
+		<button onclick="setLavender()">LAVENDER</button>
+	</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>dom</title>
+<style type="text/css">
+	#container {
+		width: 500px;
+		margin: auto;
+	}
+
+</style>
+</head>
+<body>
+	<div id="container">
+		<img id="cover" src="../images/cup-1.png">
+	</div>
+	<script type="text/javascript">
+	var cnt = 0;
+		var conver = document.getElementById("cover");
+		/* 이미지를 클릭했을 때 그림이 번갈아서 변경됨
+		conver.addEventListener("click", function(){			
+		if (cnt++ % 2 == 0) {
+				conver.src = "../images/cup-2.png"
+			} else {
+				conver.src = "../images/cup-1.png"
+			}
+		}); */
+	 
+		conver.addEventListener("mouseover", changePic); 
+		conver.addEventListener("mouseout", originPic); 
+	</script>
+</body>
+</html>

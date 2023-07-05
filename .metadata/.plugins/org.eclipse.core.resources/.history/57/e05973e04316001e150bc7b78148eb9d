@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DOM(Document Object Model)</title>
+</head>
+<body>
+  <p id="demo1">Hello World</p>
+  <p><span id="demo2">WelCome JavaScript</span></p>
+  <p id="demo3">서울시 마포구 신수동</p>
+  <hr>
+  
+  <script type="text/javascript">
+  	// html 요소 변경
+  	// 내용(텍스트 = content)을 가져오거나 설정 : innerHTML
+  	// 속성 가져오기 : getAttribute("속성명")
+  	// 속성 설정 : setAttribute("속성명", 값)
+  	// css를 이용해서 속성 설정 : style.속성명 = "값"
+  	document.getElementById("demo1").innerHTML = "<h2>KOREA SEOUL</h2>";
+  	document.getElementById("demo1").align = "center";
+  	document.getElementById("demo3").setAttribute("align", "center");
+  	document.getElementById("demo2").setAttribute("color", "tomato");
+  	document.getElementById("demo1").color = "lavender";
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Date 객체 : 내장 객체</title>
+<script type="text/javascript">
+	document.write("<h2>")
+	document.write("오늘 날짜 : " + new Date() + "<br>")
+	document.write("특정 날짜 : " + new Date("2022-02-22") + "<br>")
+	
+	// 월을 -1을 해야함(0 ~ 11)
+	document.write("특정 날짜 : " + new Date(2022, 04 - 1, 25) + "<br>")
+	document.write("특정 날짜 및 시간 : " + new Date(2022, 04 - 1, 25, 09, 10) + "<br>")
+	document.write("<hr>")
+	
+		document.write("오늘 날짜 : " + new Date().toDateString() + "<br>")
+	document.write("특정 날짜 : " + new Date("2022-02-22").toDateString() + "<br>")
+		document.write("오늘 날짜 : " + new Date(2022, 04, 25).toDateString() + "<br>")
+	document.write("특정 날짜 및 시간 : " + new Date(2022, 04 - 1, 25, 09, 10).toDateString() + "<br>")
+	document.write("</h2>")
+</script>
+</head>
+<body>
+
+</body>
+</html>

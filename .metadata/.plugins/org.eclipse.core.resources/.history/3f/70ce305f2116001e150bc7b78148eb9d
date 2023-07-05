@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Date 객체 : 내장 객체</title>
+<script type="text/javascript">
+	document.write("오늘 날짜 : " + new Date() + "<br>")
+	document.write("특정 날짜 : " + new Date("2022-02-22") + "<br>")
+	document.write("특정 날짜 : " + new Date(2022, 04, 25) + "<br>")
+	document.write("특정 날짜 및 시간 : " + new Date(2022, 04, 25, 09, 10) + "<br>")
+	document.write("<hr>")
+</script>
+</head>
+<body>
+
+</body>
+</html>

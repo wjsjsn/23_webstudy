@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Array</title>
+<script type="text/javascript">
+	var arr = [1,2,3,4,5];
+	var res = arr.slice(2);
+	document.write("반환된 배열 : " + arr + "<br>");
+	document.write("변경된 배열 : " + res + "<br>");
+	document.write("<hr>");
+</script>
+</head>
+<body>
+
+</body>
+</html>

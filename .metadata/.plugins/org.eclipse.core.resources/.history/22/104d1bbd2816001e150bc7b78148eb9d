@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Math 객체</title>
+<script type="text/javascript">
+	// 주요 메서드 : min, max, random, round, floor, ceil 
+	document.write(Math.min(1, -2, 95, -4, 40, 67) + "<br>");      // -4
+	document.write(Math.min(1, -2, 95, "-4", 40, 67) + "<br>");    // -4
+	document.write(Math.min(1, -2, 95, "hello", 40, 67) + "<br>"); // NaN 
+	document.write("<hr>");
+	
+	document.write(Math.max(1, -2, 95, -4, 40, 67) + "<br>");      // 95
+	document.write(Math.max(1, -2, 95, "-4", 40, 67) + "<br>");    // 95
+	document.write(Math.max(1, -2, 95, "hello", 40, 67) + "<br>"); // NaN 
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>
